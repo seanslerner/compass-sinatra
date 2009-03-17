@@ -7,6 +7,7 @@ require 'haml'    #must be loaded after sinatra
 set :app_file, __FILE__
 set :root, File.dirname(__FILE__)
 set :views, "views"
+set :public, 'static'
 
 configure do
   Compass.configuration do |config|
