@@ -10,10 +10,7 @@ set :views, "views"
 set :public, 'static'
 
 configure do
-  Compass.configuration do |config|
-    config.project_path = File.dirname(__FILE__)
-    config.sass_dir = File.join(Sinatra::Application.views, 'stylesheets')
-  end
+  Compass.configuration.parse(File.join(Sinatra::Application.root, 'config', 'compass.config'))
 end
 
 # at a minimum, the main sass file must reside within the ./views directory. here, we create a ./views/stylesheets directory where all of the sass files can safely reside.
