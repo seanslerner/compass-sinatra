@@ -4,16 +4,17 @@ This app is a simple starting point for those wanting to explore [Compass](https
 
 ##Installation
 To get started just:
-Fork the repo. Then:
+
+>Fork the repo. Then:
 
     git clone git@github.com:YOUR_USERNAME/compass-sinatra.git
     cd compass-sinatra
 
-Test that it is working with:
+>Test that it is working with:
 
     ruby app.rb
 
-Your site should the be at `http://localhost:4567/`
+>Your site should the be at `http://localhost:4567/`
 
 ##Learn More!
 
