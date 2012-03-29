@@ -7,12 +7,13 @@ To get started just:
 
 >Fork the repo. Then:
 
-    git clone git@github.com:YOUR_USERNAME/compass-sinatra.git
-    cd compass-sinatra
+    $git clone git@github.com:YOUR_USERNAME/compass-sinatra.git
+    $cd compass-sinatra
+    $bundle install
 
 >Test that it is working with:
 
-    ruby app.rb
+    $ruby app.rb
 
 >Your site should the be at `http://localhost:4567/`
 
